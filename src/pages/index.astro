@@ -1,0 +1,186 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Resume - Pavitra Golchha">
+
+	<style>
+		body {
+			/* width: 21cm !important;
+      height: 29.7cm !important;
+      margin: 10mm 10mm !important; */
+
+			/* @apply font-serif; */
+		}
+
+		.prose-custom {
+			/* @apply prose-sm; */
+			@apply prose-h2:underline prose-h2:decoration-emerald-300;
+			@apply prose-h3:underline prose-h3:decoration-sky-300;
+			@apply mx-auto max-w-none w-11/12;
+			/* @apply mt-16; */
+			/* @apply scale-75; */
+		}
+
+		.chip {
+			@apply rounded bg-slate-100 px-2;
+		}
+	</style>
+
+	<main class="prose bg-white prose-custom">
+		<section>
+			<h1>Pavitra Golchha</h1>
+			<div class="space-x-2">
+				<span><span>📍</span> Guwahati, Assam, IN</span>
+				<span><span>☎️</span> +91 96801 28870</span>
+				<span><span>✉️</span> hello@pavi2410.me</span>
+				<span><span>🌐</span> https://pavi2410.me</span>
+			</div>
+		</section>
+		<!-- <hr /> -->
+		<section>
+			<h2>Career Objective</h2>
+			<p>A computerphile who likes to learn more about computing and tries out new technologies.</p>
+		</section>
+		<div class="grid grid-cols-2 gap-6">
+			<div>
+				<section>
+					<h2>Experience</h2>
+					<div>
+						<h3>Kodular</h3>
+						<span>
+							<b>Co-Founder</b><span>, </span>
+							<span>Jul 2017</span><span> - </span>
+							<span>Present</span><br>
+						</span>
+						<p>A no-code Android app builder</p>
+						<ul>
+							<li>Website ranks under 8,000</li>
+							<li>1M app developers</li>
+							<li>4M apps built in 2020 alone</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Infocusp</h3>
+						<div>
+							<b>Software Engineer Intern</b><span>,
+							</span>
+							<span>July 2022-23 (1 year)</span><br>
+						</div>
+						<p>Doing data science</p>
+					</div>
+					<div>
+						<h3>Socommerz</h3>
+						<span>
+							<b>Web Development Intern</b><span>, </span>
+							<span>Jun - Jul 2021 (1 month)</span><br>
+						</span>
+						<p>Projects that I worked on:</p>
+						<ul>
+							<li>A Multi Tenant - SaaS based Campaign Manager</li>
+							<li>Components of a Global E-commerce Engine</li>
+							<li>A Food Tech Platform to aggregate Home Chefs.</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Google Summer Of Code x MIT App Inventor</h3>
+						<span>
+							<b>Participant</b><span>, </span>
+							<span>May - Aug 2020 (4 months)</span><br>
+						</span>
+						<ul>
+							<li>App Inventor is a project that democratizes mobile app development.</li>
+							<li>My project was to make visible component extensions work, which would enable a missing piece of the
+								platform.</li>
+							<li>Demo'd the prototype at the MIT App Inventor Global Developer Meetup (Fall, 2020)</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Highway to Highradius Internship Program</h3>
+						<span>
+							<b>Participant</b><span>, </span>
+							<span>Jan - Apr 2022 (3 months)</span><br>
+						</span>
+						<p>Learnt and build an ML based fullstack project</p>
+					</div>
+				</section>
+			</div>
+			<div>
+				<section>
+					<h2>Education</h2>
+					<div>
+						<h3>SRM University</h3>
+						<span>
+							<b>BTech</b>
+							<span>, </span>
+							<span>Computer Science & Engineering</span>
+							<span> (graduating June 2023)</span>
+						</span>
+					</div>
+				</section>
+				<section>
+					<h2>Certifications</h2>
+					<div>
+						<ul>
+							<li>AWS Academy Cloud Foundations</li>
+							<li>Oracle Cloud Infrastructure Foundations 2021 Certified Associate</li>
+							<li>Machine Learning by Andrew Ng</li>
+							<li>Fundamentals of Red Hat Enterprise Linux</li>
+							<li>Oracle Database Foundations</li>
+							<li>APIs and Microservices - freeCodeCamp</li>
+							<li>30 Days of Google Cloud</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>Technical Skills</h2>
+					<div class="flex flex-wrap gap-2">
+						<span class="chip font-semibold">Android Development (Kotlin, Compose)</span>
+						<span class="chip font-semibold">Web Development (Full-Stack)</span>
+						<span class="chip font-semibold">Machine Learning</span>
+						<span class="chip font-semibold">Databases (SQL, NoSQL)</span>
+						<span class="chip font-semibold">Cloud</span>
+						<span class="chip font-semibold">Distributed Systems</span>
+						<span class="chip font-semibold">Systems Design</span>
+						<span class="chip font-semibold">Operating Systems (Linux)</span>
+						<span class="chip font-semibold">Java</span>
+						<span class="chip font-semibold">JavaScript</span>
+						<span class="chip font-semibold">TypeScript</span>
+						<span class="chip font-semibold">Kotlin</span>
+						<span class="chip font-semibold">C</span>
+						<span class="chip font-semibold">C++</span>
+						<span class="chip font-semibold">Python</span>
+					</div>
+				</section>
+				<section>
+					<h2>Projects</h2>
+					<ul>
+						<li>picsup - An image sharing platform</li>
+						<li>VR Compatibility Checker (~100K downloads)</li>
+						<li>PlayBadges - a badge service for Play Store app's downloads and rating</li>
+						<li>FloLang - an interpreted programming language</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Other experiences</h2>
+					<div>
+						<h3>Google Developers Student Clubs</h3>
+						<span>
+							<b>Tech Lead</b><span>, </span>
+							<span>Mar 2020 - 2022</span><br>
+						</span>
+						<p>Hosted several workshops for Android Study Jams and Kotlin</p>
+					</div>
+					<div>
+						<h3>Google Cloud Sprint Bootcamp</h3>
+						<span>
+							<b>Participant</b><span>, </span>
+							<span>June - July 2022 (4 weeks)</span><br>
+						</span>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+
+</Layout>
