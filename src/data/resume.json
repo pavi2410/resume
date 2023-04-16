@@ -5,11 +5,6 @@
     "email": "hello@pavi2410.me",
     "url": "https://pavi2410.me",
     "summary": "A computerphile who likes to learn more about computing and tries out new technologies.",
-    "location": {
-      "city": "Guwahati",
-      "region": "Assam",
-      "countryCode": "IN"
-    },
     "profiles": [
       {
         "network": "LinkedIn",
@@ -25,19 +20,60 @@
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Kodular",
+      "url": "https://kodular.io/",
+      "description": "A no-code Android app builder",
+      "position": "Co-Founder",
+      "startDate": "2017-06-01",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Website ranks under 8,000",
+        "1M app developers",
+        "4M apps built in 2020 alone"
       ]
+    },
+    {
+      "name": "Infocusp",
+      "url": "https://infocusp.com/",
+      "position": "Software Engineer Intern",
+      "startDate": "2022-07-01",
+      "endDate": "2023-07-01",
+      "summary": "Working on a health-tech device",
+      "highlights": [
+        "Data engineering on AWS Glue using PySpark",
+        "Build and maintain data dashboard using Streamlit, Pandas, and Plotly"
+      ]
+    },
+    {
+      "name": "Socommerz",
+      "url": "https://socommerz.com/",
+      "position": "Web Development Intern",
+      "startDate": "2021-06-01",
+      "endDate": "2021-07-01",
+      "highlights": [
+        "Bootstrapped a Multi Tenant - SaaS based Campaign Manager",
+        "Built components of a Global E-commerce Engine",
+        "Worked on a Food Tech Platform to aggregate Home Chefs"
+      ]
+    },
+    {
+      "name": "Google Summer Of Code ⨉ MIT App Inventor",
+      "url": "https://summerofcode.withgoogle.com/archive/2020/projects/5288616609185792",
+      "position": "Participant",
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-01",
+      "description": "App Inventor is a project that democratizes mobile app development",
+      "highlights": [
+        "My project was to make visible component extensions work, which would enable a missing piece of the platform.",
+        "Demo'd the prototype at the MIT App Inventor Global Developer Meetup (Fall 2020)"
+      ]
+    },
+    {
+      "name": "Highway to Highradius Internship Program",
+      "url": "https://www.highradius.com/",
+      "position": "Apprentice",
+      "startDate": "2022-01-01",
+      "endDate": "2022-04-01",
+      "description": "Learnt and build an ML based fullstack project."
     }
   ],
   "volunteer": [
@@ -55,47 +91,94 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "institution": "SRM Institute of Science and Technology",
+      "url": "https://www.srmist.edu.in/",
+      "area": "Computer Science & Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2019-07-01",
+      "endDate": "2023-06-31",
+      "score": "9.23",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Digital Image Processing",
+        "Distributed Computing and System Design",
+        "High Performance Computing"
       ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript",
+        "JavaScript",
+        "TypeScript",
         "ReactJS",
         "NodeJS"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Android Development",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Java",
+        "Kotlin",
+        "Compose"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "SQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "keywords": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": [
+        "Python",
+        "PySpark",
+        "AWS Glue",
+        "Big Data"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "Linux",
+        "Windows",
+        "Shell scripting"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Sklearn",
+        "Tensorflow"
+      ]
+    },
+    {
+      "name": "Systems Programming",
+      "keywords": [
+        "C",
+        "C++",
+        "Rust"
+      ]
+    },
+    {
+      "name": "More",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Distributed Systems",
+        "Systems Design",
+        "Computer Networks"
       ]
     }
   ],
@@ -109,19 +192,30 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
+  "certificates": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
+      "name": "AWS Academy Cloud Foundations"
+    },
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Oracle Cloud Infrastructure Foundations 2021 Certified Associate"
+    },
+    {
+      "name": "Machine Learning by Andrew Ng"
+    },
+    {
+      "name": "Fundamentals of Red Hat Enterprise Linux"
+    },
+    {
+      "name": "Oracle Database Foundations"
+    },
+    {
+      "name": "APIs and Microservices - freeCodeCamp"
+    },
+    {
+      "name": "30 Days of Google Cloud"
+    },
+    {
+      "name": "Architecting with Google Compute Engine (Specialization)"
     }
   ],
   "projects": [
