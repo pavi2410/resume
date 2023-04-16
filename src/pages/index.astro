@@ -29,13 +29,18 @@ import {formatDateRange, pickColorByHash} from "../utils";
         <section>
             <div class="flex justify-between">
                 <h1>{resume.basics.name}</h1>
-                <div class="space-x-2">
+                <div class="flex flex-wrap gap-4">
                     <span>✉️ {resume.basics.email}</span>
-                    <span>🌐 <a>{resume.basics.url}</a></span>
+                    <span>🌐 <a href={resume.basics.url} target="_blank">{resume.basics.url}</a></span>
+                    {
+                        resume.basics.profiles.map(profile => (
+                                        <span><a href={profile.url} target="_blank">{profile.network} / {profile.username}</a></span>
+                            )
+                        )
+                    }
                 </div>
             </div>
         </section>
-        <!-- <hr /> -->
         <section>
             <h2>Career Objective</h2>
             <p>{resume.basics.summary}</p>
