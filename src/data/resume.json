@@ -135,6 +135,8 @@
     {
       "name": "Cloud Computing",
       "keywords": [
+        "Docker",
+        "Terraform",
         "AWS",
         "GCP"
       ]
@@ -143,9 +145,17 @@
       "name": "Data Engineering",
       "keywords": [
         "Python",
+        "Pandas",
         "PySpark",
         "AWS Glue",
         "Big Data"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Sklearn",
+        "Tensorflow"
       ]
     },
     {
@@ -154,13 +164,6 @@
         "Linux",
         "Windows",
         "Shell scripting"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "keywords": [
-        "Sklearn",
-        "Tensorflow"
       ]
     },
     {
@@ -175,7 +178,6 @@
       "name": "More",
       "keywords": [
         "Git",
-        "Docker",
         "Distributed Systems",
         "Systems Design",
         "Computer Networks"
